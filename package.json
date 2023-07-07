@@ -1,0 +1,26 @@
+{
+    "name": "nodejs-battleship",
+    "version": "1.0.0",
+    "description": "Battleship game created utilizing WebSocket connection",
+    "main": "index.ts",
+    "scripts": {
+        "start": "nodemon index.ts"
+    },
+    "author": "Artsiom Ostrovskiy",
+    "keywords": [],
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "20.4.0",
+        "@typescript-eslint/eslint-plugin": "5.61.0",
+        "@typescript-eslint/parser": "5.61.0",
+        "eslint": "8.44.0",
+        "nodemon": "2.0.16",
+        "prettier": "3.0.0",
+        "ts-node": "10.9.1",
+        "typescript": "5.1.6"
+    },
+    "dependencies": {
+        "dotenv": "16.3.1",
+        "ws": "8.8.0"
+    }
+}
